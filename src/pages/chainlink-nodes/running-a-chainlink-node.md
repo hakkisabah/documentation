@@ -130,8 +130,7 @@ Chainlink is blockchain agnostic technology. The [LINK Token Contracts](/resourc
 Run the following as a command to create an environment file and populate with variables specific to the network you're running on. For a full list of available configuration variables, click [here](/chainlink-nodes/configuration-variables/).
 
 ```shell Goerli
-echo "ROOT=/chainlink
-LOG_LEVEL=debug
+echo "LOG_LEVEL=debug
 ETH_CHAIN_ID=5
 CHAINLINK_TLS_PORT=0
 SECURE_COOKIES=false
@@ -139,8 +138,7 @@ ALLOW_ORIGINS=*" > ~/.chainlink-goerli/.env
 ```
 
 ```shell Mainnet
-echo "ROOT=/chainlink
-LOG_LEVEL=debug
+echo "LOG_LEVEL=debug
 ETH_CHAIN_ID=1
 CHAINLINK_TLS_PORT=0
 SECURE_COOKIES=false
